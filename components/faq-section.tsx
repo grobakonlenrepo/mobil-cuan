@@ -20,14 +20,14 @@ export function FAQSection() {
           <p className="text-lg text-muted-foreground text-pretty leading-relaxed font-serif"></p>
         </div>
 
-        <div className="max-w-3xl mx-auto space-y-4">
+        <div className="max-w-7xl mx-auto space-y-4">
           {FAQS.map((faq, index) => (
             <div key={index} className="bg-card border border-border rounded-2xl overflow-hidden">
               <button
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                className="w-full flex items-center justify-between p-6 text-left hover:bg-muted/50 transition-colors"
+                className="w-full flex items-center justify-between p-6 text-left hover:bg-muted/50 transition-colors cursor-pointer"
               >
-                <span className="font-semibold text-lg pr-4 font-serif tracking-wider italic text-primary">{faq.question}</span>
+                <span className="font-semibold text-lg md:text-xl pr-4 font-serif tracking-wider italic text-primary">{faq.question}</span>
                 <ChevronDown
                   className={`h-5 w-5 text-muted-foreground transition-transform flex-shrink-0 ${
                     openIndex === index ? "rotate-180" : ""
@@ -36,7 +36,7 @@ export function FAQSection() {
               </button>
               {openIndex === index && (
                 <div className="px-6 pb-6">
-                  <p className="leading-relaxed font-serif tracking-wide text-foreground text-base md:text-lg">{faq.answer}</p>
+                  <p className="leading-relaxed font-serif tracking-wide text-foreground text-base md:text-xl">{faq.answer}</p>
                 </div>
               )}
             </div>

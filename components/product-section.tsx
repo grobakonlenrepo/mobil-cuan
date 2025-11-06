@@ -164,7 +164,7 @@ export function ProductSection() {
                       aria-hidden="true"
                       className="h-5 w-5 text-primary mt-0.5 shrink-0"
                     />
-                    <span className="font-serif text-foreground tracking-wide text-lg">
+                    <span className="font-serif text-foreground tracking-wide text-lg tracking-wider">
                       {item}
                     </span>
                   </li>

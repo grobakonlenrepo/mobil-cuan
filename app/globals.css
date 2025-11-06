@@ -148,7 +148,6 @@
 @layer utilities {
   .title-gradient {
     @apply font-sans uppercase font-extrabold bg-clip-text text-transparent;
-    letter-spacing: 0.08em;
     background-image: linear-gradient(to right, var(--grad-from), var(--grad-mid), var(--grad-to));
   }
 

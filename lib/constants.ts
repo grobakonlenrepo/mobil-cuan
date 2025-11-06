@@ -16,10 +16,6 @@ export const NAVIGATION = [
   { name: "FAQ", href: "#faq" },
 ];
 
-export const INFO = {
-  wa: "wa.me/+6287761094048",
-};
-
 export const HERO = {
   title: "BELI MOBIL SEHARGA KULAKAN BAKUL",
   subtitle:
@@ -515,7 +511,7 @@ export const MEMBERSHIP = {
         "Bisa ditukar pakai kapan saja saat jam kerja",
         "Membership berlaku seumur hidup",
       ],
-      bonusTitle: "Aturan Member",
+      bonusTitle: "Aturan Member:",
       bonus: [
         "Jika kamu titipkan 2 unit mobil untuk dijual lewat MobilCuan, fee 2,5% gratis untuk kedua unit itu!",
         "Akses modal stok yang ada — pilih unit mobil apapun sesuai preferensi",
@@ -535,7 +531,7 @@ export const MEMBERSHIP = {
         "Deposit minimal Rp50 juta untuk 10 unit mobil",
         "Membership berlaku seumur hidup",
       ],
-      bonusTitle: "Aturan Member",
+      bonusTitle: "Aturan Member:",
       bonus: [
         "Setiap unit yang kamu beli, bisa dipajang di showroom MobilCuan",
         "Kesempatan ikut trip ke luar negeri (khusus member Platinum)",

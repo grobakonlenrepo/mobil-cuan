@@ -73,7 +73,7 @@ export function PriceComparisonSection() {
         </div>
 
         {/* Comparison Card */}
-        <div className="max-w-6xl mx-auto mb-12">
+        <div className="max-w-7xl mx-auto mb-12">
           <div className="bg-card border border-border rounded-3xl overflow-hidden">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-0 relative">
               {/* Left Side - Auction Price */}
@@ -222,7 +222,7 @@ export function PriceComparisonSection() {
             onClick={prevSlide}
             variant="outline"
             size="icon-xl"
-            className="bg-transparent text-slate-50 rounded-md size-12"
+            className="bg-transparent text-slate-50 rounded-md size-12 cursor-pointer"
             aria-label="Previous problem"
           >
             <ChevronLeft className="w-9 text-foreground h-9" />
@@ -247,7 +247,7 @@ export function PriceComparisonSection() {
             onClick={nextSlide}
             variant="outline"
             size="icon-xl"
-            className="bg-transparent text-slate-50 rounded-md size-12"
+            className="bg-transparent text-slate-50 rounded-md size-12 cursor-pointer"
             aria-label="Next problem"
           >
             <ChevronRight className="text-foreground h-9 w-9" />

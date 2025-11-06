@@ -76,11 +76,11 @@ export function Footer() {
 
           {/* Social (auto detect icons) */}
           {Array.isArray(FOOTER.social) && FOOTER.social.length > 0 && (
-            <div className="flex flex-col min-w-[150px] sm:min-w-[200px]">
+            <div className="flex flex-col items-center min-w-[150px] sm:min-w-[200px]">
               <h3 className="font-semibold uppercase mb-4 tracking-wide text-xl font-sans text-foreground">
                 Social
               </h3>
-              <div className="flex flex-col space-y-3">
+              <div className="flex flex-col space-y-3 items-center justify-center">
                 {FOOTER.social.map((s) => {
                   const href = s.href.startsWith("http")
                     ? s.href

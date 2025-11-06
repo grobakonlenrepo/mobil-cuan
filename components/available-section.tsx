@@ -117,7 +117,7 @@ export function AvailableSection() {
 
                       <Button
                         onClick={() => handleJoinMember(product)}
-                        className="w-full gap-2 bg-primary text-primary-foreground hover:bg-primary/90 text-base"
+                        className="w-full gap-2 bg-primary text-primary-foreground hover:bg-primary/90 text-base cursor-pointer"
                       >
                         Lihat Selengkapnya
                         <ArrowRight className="h-4 w-4" />

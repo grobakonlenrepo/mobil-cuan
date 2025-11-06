@@ -114,7 +114,7 @@ ${formData.message}
                     value={formData.name}
                     onChange={handleChange}
                     required
-                    className="w-full font-serif tracking-wider"
+                    className="w-full font-serif tracking-wider text-base"
                   />
                 </div>
 
@@ -171,14 +171,14 @@ ${formData.message}
                     onChange={handleChange}
                     required
                     rows={5}
-                    className="w-full px-3 py-2 border border-input rounded-lg bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary tracking-wider font-serif"
+                    className="w-full px-3 py-2 border border-input rounded-lg bg-background text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-primary tracking-wider font-serif text-base"
                   />
                 </div>
 
                 <Button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full bg-primary uppercase hover:bg-primary/90 text-primary-foreground font-semibold py-2 rounded-lg transition-colors text-lg tracking-wider"
+                  className="w-full bg-primary uppercase hover:bg-primary/90 text-primary-foreground font-semibold py-2 rounded-lg transition-colors text-lg tracking-wider cursor-pointer"
                 >
                   {isSubmitting ? "Mengirim..." : "Kirim Pesan"}
                 </Button>

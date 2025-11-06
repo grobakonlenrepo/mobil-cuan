@@ -46,7 +46,7 @@ export function ProblemSection() {
           </p>
         </div>
 
-        <div className="max-w-6xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
             {visibleProblems.map((problem, index) => (
               <div
@@ -72,7 +72,7 @@ export function ProblemSection() {
               onClick={prevSlide}
               variant="outline"
               size="icon-xl"
-              className="bg-transparent text-slate-50 rounded-md size-12"
+              className="bg-transparent text-slate-50 rounded-md size-12 cursor-pointer"
               aria-label="Previous problem"
             >
               <ChevronLeft className="w-9 text-foreground h-9" />
@@ -97,7 +97,7 @@ export function ProblemSection() {
               onClick={nextSlide}
               variant="outline"
               size="icon-xl"
-              className="bg-transparent text-slate-50 rounded-md size-12"
+              className="bg-transparent text-slate-50 rounded-md size-12 cursor-pointer" 
               aria-label="Next problem"
             >
               <ChevronRight className="text-foreground h-9 w-9" />

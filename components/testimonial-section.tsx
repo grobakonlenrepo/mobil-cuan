@@ -40,7 +40,7 @@ export function TestimonialSection() {
           <p className="text-lg text-muted-foreground text-pretty leading-relaxed font-serif"></p>
         </div>
 
-        <div className="relative max-w-4xl mx-auto">
+        <div className="relative max-w-7xl mx-auto">
           <div className="overflow-hidden">
             <div
               className="flex transition-transform duration-500 ease-in-out"
@@ -50,14 +50,14 @@ export function TestimonialSection() {
             >
               {TESTIMONIALS.map((testimonial, index) => (
                 <div key={index} className="w-full flex-shrink-0 px-4">
-                  <div className="bg-card border border-border rounded-2xl p-8 md:p-12 max-w-3xl mx-auto">
+                  <div className="bg-card border border-border rounded-2xl p-8 md:p-12 max-w-7xl mx-auto">
                     <div className="flex flex-col md:flex-row gap-6 md:gap-10 items-center md:items-start">
                       {/* Left: Avatar Image */}
                       <div className="flex-shrink-0">
                         <img
                           src={testimonial.avatar || "/placeholder.svg"}
                           alt={testimonial.name}
-                          className="w-40 h-40 md:w-56 md:h-56 rounded-xl object-cover shadow-md"
+                          className="w-40 h-40 md:w-64 md:h-64 rounded-xl object-cover shadow-md"
                         />
                       </div>
 
@@ -76,7 +76,7 @@ export function TestimonialSection() {
                         </div>
 
                         {/* Quote */}
-                        <p className="text-base md:text-lg mb-6 leading-relaxed italic font-serif text-foreground">
+                        <p className="text-base md:text-xl mb-6 leading-relaxed tracking-wide italic font-serif text-foreground">
                           "{testimonial.content}"
                         </p>
 
@@ -85,7 +85,7 @@ export function TestimonialSection() {
                           <div className="md:text-lg font-serif font-semibold text-foreground text-lg tracking-wider">
                             {testimonial.name}
                           </div>
-                          <div className="font-serif text-base tracking-wide text-primary">
+                          <div className="font-serif text-base md:text-lg tracking-wide text-primary">
                             {testimonial.role}
                           </div>
                         </div>

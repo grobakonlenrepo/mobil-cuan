@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import { NAVIGATION, INFO } from "@/lib/constants";
+import { NAVIGATION, SITE_CONFIG } from "@/lib/constants";
 import { useState } from "react";
 import { ThemeToggle } from "@/components/theme-toggle";
 
@@ -27,7 +27,7 @@ export function Header() {
             <img
               src="/images/mobilguan-logo.png"
               alt="MobilGuan"
-              className="h-5 w-auto sm:h-6 md:h-7"
+              className="h-5 w-auto sm:h-6"
             />
             <span className="sr-only">MobilGuan</span>
           </Link>
@@ -57,7 +57,7 @@ export function Header() {
 
             {/* Tombol WA hanya di desktop */}
             <Link
-              href={INFO.wa}
+              href={`https://wa.me/${SITE_CONFIG.whatsapp}`}
               className="hidden lg:inline-flex hover:bg-[#e56f0a] text-black bg-gradient-to-r from-[var(--grad-from)] via-[var(--grad-mid)] to-[var(--grad-to)] transition-transform hover:scale-[1.02] active:scale-95 cursor-pointer text-lg font-medium tracking-wide py-2 px-4 rounded-full"
             >
               HUBUNGI KAMI
@@ -99,9 +99,11 @@ export function Header() {
                   {item.name}
                 </Link>
               ))}
-              <Button className="w-full bg-primary hover:bg-[#e56f0a] uppercase text-black text-base tracking-wide font-semibold">
-                Hubungi Kami
-              </Button>
+              <Link href={`https://wa.me/${SITE_CONFIG.whatsapp}`}>
+                <Button className="w-full bg-primary hover:bg-[#e56f0a] uppercase text-black text-base tracking-wide font-semibold cursor-pointer">
+                  Hubungi Kami
+                </Button>
+              </Link>
             </div>
           </nav>
         )}

@@ -4,7 +4,7 @@ export function AboutSection() {
   return (
     <section id="about" className="py-20 lg:py-32 bg-muted/30">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="max-w-4xl mx-auto">
+        <div className="max-w-7xl mx-auto">
           <div className="text-center mb-8">
             <h2
               className="md:text-4xl font-bold uppercase mb-4 text-balance text-primary text-2xl tracking-wide"
@@ -81,7 +81,7 @@ export function AboutSection() {
                       {pkg.benefits.map((b, idx) => (
                         <li
                           key={idx}
-                          className="text-foreground/90 tracking-wide text-base md:text-lg"
+                          className="text-foreground/90 tracking-wide text-base md:text-xl"
                         >
                           {b}
                         </li>
@@ -98,7 +98,7 @@ export function AboutSection() {
                         {pkg.bonus.map((b, idx) => (
                           <li
                             key={idx}
-                            className="text-foreground/90 text-base tracking-wide"
+                            className="text-foreground/90 text-base md:text-xl tracking-wide"
                           >
                             {b}
                           </li>
@@ -107,7 +107,7 @@ export function AboutSection() {
                     </div>
                   )}
 
-                  <p className="font-serif md:text-lg italic text-primary font-normal tracking-wide text-sm">
+                  <p className="font-serif md:text-xl italic text-primary font-normal tracking-wide text-sm">
                     {pkg.audience}
                   </p>
                 </div>
@@ -116,7 +116,7 @@ export function AboutSection() {
           </div>
 
           {ABOUT.note && (
-            <p className="text-pretty leading-relaxed font-serif text-foreground tracking-wide text-left italic text-base md:text-lg">
+            <p className="text-pretty leading-relaxed font-serif text-foreground tracking-wide text-left italic text-base md:text-xl">
               {ABOUT.note}
             </p>
           )}
