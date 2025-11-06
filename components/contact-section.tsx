@@ -80,7 +80,7 @@ ${formData.message}
           </p>
         </div>
 
-        <div className="max-w-6xl mx-auto space-y-8 lg:space-y-12">
+        <div className="max-w-7xl mx-auto space-y-8 lg:space-y-12">
           {/* Google Maps - Full Width */}
           <div className="rounded-lg overflow-hidden border border-border h-80 lg:h-96">
             <iframe
