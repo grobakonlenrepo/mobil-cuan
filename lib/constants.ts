@@ -208,8 +208,8 @@ export const SOLD_OUT_PRODUCTS = [
     description:
       "Honda Mobilio DD4 1.5 S MT CKD — minivan keluarga yang nyaman, irit, dan mudah dijual. Kondisi terawat dengan interior premium dan mesin sehat. Cocok untuk keluarga atau investasi dengan margin keuntungan menarik.",
     specs: {
-      hargabakul: "Rp120jt",
-      hargapasar: "Rp97jt",
+      hargajual: "Rp120jt",
+      hargabeli: "Rp97jt",
     },
     price: "Untung 40jt !!",
     image: "/car-images/honda-mobilio.svg",
@@ -255,8 +255,8 @@ export const SOLD_OUT_PRODUCTS = [
     description:
       "Nissan Teana 2.5 CVT (4x2) AT — sedan premium yang elegan, nyaman, dan mudah dijual. Kondisi terawat dengan interior premium kulit dan mesin yang sehat. Cocok untuk keluarga atau investasi dengan margin keuntungan menarik.",
     specs: {
-      hargabakul: "Rp143jt",
-      hargapasar: "Rp120jt",
+      hargajual: "Rp143jt",
+      hargabeli: "Rp120jt",
     },
     price: "Untung 50jt !!",
     image: "/car-images/nissan-teana.svg",
