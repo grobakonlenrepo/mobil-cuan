@@ -125,7 +125,7 @@ export const SOLD_OUT_PRODUCTS = [
       "Honda Brio Satya 1.2 E CVT — city car yang irit, responsif, dan mudah dijual. Cocok untuk pemula atau investasi dengan margin keuntungan yang menarik.",
     specs: {
       hargajual: "Rp144jt",
-      hargabeli: "Rpjt",
+      hargabeli: "Rp124jt",
     },
     price: "Untung 35jt !!",
     image: "/car-images/honda-brio-satya.svg",
@@ -167,7 +167,7 @@ export const SOLD_OUT_PRODUCTS = [
       "Honda Freed generasi pertama — MPV keluarga yang irit, nyaman, dan mudah dijual. Cocok untuk keluarga atau investasi jual cepat dengan margin bagus.",
     specs: {
       hargajual: "Rp125jt",
-      hargabeli: "Rpjt",
+      hargabeli: "Rp99jt",
     },
     price: "Untung 40jt !!",
     image: "/car-images/honda-freed.svg",
@@ -209,7 +209,7 @@ export const SOLD_OUT_PRODUCTS = [
       "Honda Mobilio DD4 1.5 S MT CKD — minivan keluarga yang nyaman, irit, dan mudah dijual. Kondisi terawat dengan interior premium dan mesin sehat. Cocok untuk keluarga atau investasi dengan margin keuntungan menarik.",
     specs: {
       hargabakul: "Rp120jt",
-      hargapasar: "Rpjt",
+      hargapasar: "Rp97jt",
     },
     price: "Untung 40jt !!",
     image: "/car-images/honda-mobilio.svg",
@@ -256,7 +256,7 @@ export const SOLD_OUT_PRODUCTS = [
       "Nissan Teana 2.5 CVT (4x2) AT — sedan premium yang elegan, nyaman, dan mudah dijual. Kondisi terawat dengan interior premium kulit dan mesin yang sehat. Cocok untuk keluarga atau investasi dengan margin keuntungan menarik.",
     specs: {
       hargabakul: "Rp143jt",
-      hargapasar: "Rpjt",
+      hargapasar: "Rp120jt",
     },
     price: "Untung 50jt !!",
     image: "/car-images/nissan-teana.svg",
