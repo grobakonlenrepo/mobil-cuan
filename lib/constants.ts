@@ -150,13 +150,7 @@ export const SOLD_OUT_PRODUCTS = [
         "MOBIL TERAWAT // INTERIOR BERSIH // MESIN SEHAT // SIAP PAKAI // PAJAK HIDUP // KILOMETER RENDAH",
     },
     gallery: [
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2009.21.45-QAeXW5I4pghbqootvOyQPwQEYqg3bV.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2009.21.45%20%281%29-KVHpFmeyBFubpJYc7EpKEHpLVhqVMp.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2009.21.47%20%282%29-5QRTDFt5Ue3bSPnjY5SB7pXL6vm5Fo.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2009.21.48-kduD552VDE6L9RJ3jfOfbSwGpbozvp.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2009.21.47%20%281%29-aKT5DsUJJ9Kp9ZfDzKquvbY8hVgQ9u.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2009.21.48%20%281%29-dO3GLVAecXQKOoB6Dtz6OTnnR98qx4.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2009.21.42-KKLlRkq932lQFv2Bv2lnPAHrywXINV.jpeg",
+      
     ],
   },
   {
@@ -192,14 +186,7 @@ export const SOLD_OUT_PRODUCTS = [
         "MOBIL TERAWAT // INTERIOR BERSIH // MESIN SEHAT // SIAP PAKAI // PAJAK HIDUP",
     },
     gallery: [
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/freed%201-ekspMSQ22J5xgdAyaybhLgOG76JBvB.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/freed%203-OYk8VzDqX8QYwkpObh0KPsMyRV6TL8.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/freed%207-i9DRMUkNWU7S9JXhJLDeEz36vfH27Y.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/freed%206-Fv1HHjhiQNNSmyE9Q16XeWNfVN90ZO.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/freed%202-3jV1rxSZ8vcoXXr5jqSKrAtKHsijRE.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/freed%204-k1ucJt8PR88HT7yhAIGFYpYnVFGQ5A.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/freed%205-PTUjtXkr48JnACuYbFIxEB5PvbJNZG.jpeg",
-    ],
+      ],
   },
   {
     id: "honda-mobilio-2014",
@@ -237,16 +224,7 @@ export const SOLD_OUT_PRODUCTS = [
         "MOBIL TERAWAT // INTERIOR PREMIUM BERSIH // MESIN SEHAT // SIAP PAKAI // PAJAK HIDUP // KILOMETER NORMAL",
     },
     gallery: [
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2009.46.08-4FDrruSkYSfmiu2OAXdzHMDvVLVJZc.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2009.46.07-mtc8xMAaJstB9zvtQRpSbn9yzszciI.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2009.46.07%20%281%29-xU20mo5azlHc65uIKrBWOyxFholttf.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2009.46.07%20%282%29-599QqPGutztmMXOBMAmN7OxfT3ogeL.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2009.46.09-NnUVBjDwS2DOnpz4xaZOZb3K4H5Y4m.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2009.46.08%20%281%29-T1O8xYv8n6OJERiVKo1wW6aQXYTX4v.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2009.46.08%20%282%29-PtnwPzN9A5petrkmOSLSu53TqeUg7n.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2009.46.08%20%284%29-JhHuVBjDwS2DOnpz4xaZOZb3K4H5Y4m.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2009.46.08%20%283%29-d4SykE6JW7YDb3UcAPG1oGHtAGgw4b.jpeg",
-    ],
+       ],
   },
   {
     id: "nissan-teana-2013",
@@ -284,14 +262,7 @@ export const SOLD_OUT_PRODUCTS = [
         "MOBIL TERAWAT // INTERIOR PREMIUM KULIT BERSIH // MESIN SEHAT // SIAP PAKAI // PAJAK HIDUP // KILOMETER NORMAL",
     },
     gallery: [
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PXL_20250719_023945960-Bg3jXYac0NVWXS8kdBsLnMiVxKp347.jpg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PXL_20250719_024841019-KafdTZ6dVEDIIHAGlInGUYSap49lBw.jpg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PXL_20250719_024011828-s7UNUMppOXdlDbNt2iPgYk69xv4ldI.jpg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PXL_20250719_044753903.PORTRAIT-M8S3kPg5NKKnETZbgJQszOAiCrsW2Z.jpg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PXL_20250719_024747149-JytR0mKYGvDgDAc66vUoW88JpjAIFT.jpg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PXL_20250719_024136370-lXD6sipLPIszsuNSobQcPWKch3Laa2.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/PXL_20250719_023931210-8cVQ1vTGtzP9kzRCtYOUD8JqemXSc.jpg",
-    ],
+      ],
   },
 ];
 
@@ -310,7 +281,7 @@ export const AVAILABLE_PRODUCTS = [
     },
     price: "Untung 55jt !!",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202024-12-10%20at%2015.37.53-f2RDBrgNKBEiOfwli9t4QnfqaTdpBm.jpeg",
+      "/images/xpander-1.jpeg",
     detailedSpecs: {
       spesifikasi: {
         merk: "MITSUBISHI",
@@ -335,12 +306,14 @@ export const AVAILABLE_PRODUCTS = [
         "MOBIL TERAWAT // INTERIOR PREMIUM BERSIH // MESIN SEHAT // SIAP PAKAI // PAJAK HIDUP // KILOMETER RENDAH // GARANSI RESMI",
     },
     gallery: [
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202024-12-10%20at%2015.37.53-f2RDBrgNKBEiOfwli9t4QnfqaTdpBm.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202024-12-10%20at%2015.37.54%20%287%29-jI5onXMH6zI0kFzDBkyfSSW1B4XAVu.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202024-12-10%20at%2015.37.54-YVDzWrK628ilsyC75gChIdsklDxf50.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202024-12-10%20at%2015.37.54%20%281%29-ZQP3LggOLPKkToUZdsEVTAmQA9t4Ph.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202024-12-10%20at%2015.37.54%20%283%29-JvTDxrYF0x0lUzHctKGXIytxNeSock.jpeg",
-    ],
+      "/images/xpander-1.jpeg",
+      "/images/xpander-2.jpeg",
+      "/images/xpander-3.jpeg",
+      
+      "/images/xpander-5.jpeg",
+      "/images/xpander-6.jpeg",
+
+        ],
   },
   {
     id: "toyota-avanza-2023",
@@ -356,7 +329,7 @@ export const AVAILABLE_PRODUCTS = [
     },
     price: "Untung 40jt !!",
     image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_6194-wJyhZl53MFZaJFt3jyU4YW4pp2ufe6.jpg",
+      "/images/avanza-1.jpg",
     detailedSpecs: {
       spesifikasi: {
         merk: "TOYOTA",
@@ -381,11 +354,13 @@ export const AVAILABLE_PRODUCTS = [
         "MOBIL TERAWAT // INTERIOR PREMIUM BERSIH // MESIN SEHAT // SIAP PAKAI // PAJAK HIDUP // KILOMETER RENDAH",
     },
     gallery: [
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_6194-wJyhZl53MFZaJFt3jyU4YW4pp2ufe6.jpg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_6209-qHPQ9vcFakVxZ2HRyJ8XWbpTVFGsAk.jpg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_6207-RudtiJdwyh00gDTrviSSa6pZnvwq8N.jpg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_6205-KocHFnJkZ4BgWAknBWl1zkBYTgS2p4.jpg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_6200-EMmB1GZkUstPgfzxTBtQqV9UliGdhM.jpg",
+      "/images/avanza-1.jpg",
+      "/images/avanza-2.jpg",
+      "/images/avanza-3.jpg",
+      "/images/avanza-4.jpg",
+      
+      "/images/avanza-6.jpg",
+      
     ],
   },
   {
@@ -427,15 +402,13 @@ export const AVAILABLE_PRODUCTS = [
         "MOBIL TERAWAT // INTERIOR PREMIUM BERSIH // MESIN SEHAT // SIAP PAKAI // PAJAK HIDUP // KILOMETER RENDAH // ROOF RACK INCLUDED",
     },
     gallery: [
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/depan%20serong%20nongki.JPG-PU3CNYDMq1bXZ4BWSdSN7uYeIr08YK.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_6593.JPG-mE2fdhcNoitwmh2sMvZAHq04XcQ8xw.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_6602.JPG-TOfn9ddbJrO18LmIB9fGL81jfDiCZb.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_6596.JPG-GxRr0wstbQelIhwN2lOrxceoD4x8Sq.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_6600.JPG-PvnPwzkoHJqU2xnw1VdPnF97k0pRDf.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_6588.JPG-RqFqiMGf1D0Banc14zDrpH15UpiIFc.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_6599.JPG-AnRb2ZDlvKFjEHn6ztlIv0wWZL530L.jpeg",
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/IMG_6609.JPG-vESEDbRPnrfIbhcY6JnF8nJKyQV4wA.jpeg",
-    ],
+      "/images/livina-1.jpeg",
+      
+      "/images/livina-3.jpeg",
+      "/images/livina-4.jpeg",
+      "/images/livina-5.jpeg",
+      "/images/livina-6.jpeg",
+       ],
   },
 ];
 
@@ -453,7 +426,7 @@ export const TESTIMONIALS = [
     name: "Rudi Hartono",
     role: "Pembeli Honda Brio Satya 2015",
     avatar:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2010.23.38%20%281%29-dglgec3zXixQptmFpc3N9s2XZheOua.jpeg",
+      "/images/testi-1.jpeg",
     content:
       "Gue modal Rp5 juta buat jadi member, terus beli Brio Satya harga kulakan. Dijual lagi lewat MobilCuan, cuma 3 minggu laku — untung bersih Rp28 juta! Nggak perlu pusing cari pembeli, tim MobilCuan yang handle semuanya.",
     rating: 5,
@@ -462,7 +435,7 @@ export const TESTIMONIALS = [
     name: "Budi Santoso",
     role: "Pembeli Daihatsu Ayla 2014",
     avatar:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2010.23.38-wHJ4Mu4We7rsn4FcQTxWMdJ1F5DLdR.jpeg",
+      "/images/testi-2.jpeg",
     content:
       "Awalnya cuma mau beli mobil buat dipakai sendiri, tapi pengin harga murah. Pas join MobilCuan, langsung dapet Ayla 2014 harga Rp95 juta — padahal di luar Rp140 juta! Mobilnya bagus, prosesnya gampang, dan nggak ribet sama sekali.",
     rating: 5,
@@ -471,7 +444,7 @@ export const TESTIMONIALS = [
     name: "Ahmad Wijaya",
     role: "Pembeli Honda Jazz RS 2019",
     avatar:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-10-24%20at%2010.23.38%20%282%29-8sx4FiZKHwODNQ9RR86FR8DqHAWcx0.jpeg",
+      "/images/testi-3.jpeg",
     content:
       "Awalnya ragu beli mobil buat dijual lagi — takut nggak laku, takut salah pilih unit. Tapi pas pakai MobilCuan, semua jadi lebih tenang. Harganya transparan, mobilnya berkualitas, dan kalau mau jual, tim MobilCuan langsung bantu jualin. Nggak perlu mikir ribet!",
     rating: 5,
