@@ -1,0 +1,14 @@
+{
+  "name": "Mobil Cuan",
+  "short_name": "MobilCuan",
+  "icons": [
+    {
+      "src": "/images/mobilcuan-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#FFA500",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

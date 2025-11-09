@@ -31,8 +31,29 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    // 🔧 tambahkan suppressHydrationWarning untuk cegah mismatch class/style antara SSR & client
+  
     <html lang="en" suppressHydrationWarning>
+      <head>
+        {/* Favicon */}
+        <link rel="icon" href="/images/mobilcuan-logo.png" type="image/png" />
+        <link rel="apple-touch-icon" href="/images/mobilcuan-logo.png" />
+
+        {/* OpenGraph Meta Tags */}
+        <meta property="og:title" content="Mobil Cuan - Marketplace Mobil Terpercaya" />
+        <meta property="og:description" content="Temukan mobil impian Anda di Mobil Cuan - Platform jual beli mobil terpercaya dengan berbagai pilihan mobil berkualitas" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://mobilcuan.com" />
+        <meta property="og:image" content="https://mobilcuan.com/images/mobilcuan-logo.png" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Mobil Cuan - Marketplace Mobil Terpercaya" />
+        <meta name="twitter:description" content="Temukan mobil impian Anda di Mobil Cuan - Platform jual beli mobil terpercaya dengan berbagai pilihan mobil berkualitas" />
+        <meta name="twitter:image" content="https://mobilcuan.com/images/mobilcuan-logo.png" />
+
+        {/* Theme Color */}
+        <meta name="theme-color" content="#FFA500" />
+      </head>
       <body
         suppressHydrationWarning
         className={`font-sans ${racingSans.variable} ${bebasNeue.variable} ${GeistMono.variable} antialiased`}
