@@ -43,7 +43,7 @@ export default function RootLayout({
         <meta property="og:description" content="Temukan mobil impian Anda di Mobil Cuan - Platform jual beli mobil terpercaya dengan berbagai pilihan mobil berkualitas" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://mobilcuan.com" />
-        <meta property="og:image" content="https://mobilcuan.com/images/mobilcuan-logo.png" />
+        <meta property="og:image" content="/images/mobilcuan-logo.png" />
 
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
