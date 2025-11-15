@@ -59,7 +59,7 @@ export function AvailableSection() {
               AVAILABLE
             </h2>
             <p className="text-muted-foreground uppercase tracking-wide text-xl">
-              Cek Unit Ready
+              Cek Harga Kulakan Khusus Member
             </p>
           </div>
 

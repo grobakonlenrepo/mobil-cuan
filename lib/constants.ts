@@ -526,7 +526,7 @@ export const MEMBERSHIP = {
 export const ABOUT = {
   title: "Kenalan Dulu dengan MobilCuan",
   description:
-    "MobilCuan didirikan oleh tim yang sudah lebih dari 10 tahun di dunia kulakan mobil bekas. Kami tahu betul risiko membeli mobil: Kondisi mobil, dan surat-surat nggak lengkap.",
+    "Kami bukan showroom biasa. Kami adalah tim praktisi otomotif yang membuka akses harga kulakan mobil kepada siapa saja tanpa perlu jaringan besar atau modal ratusan juta.",
   verifications: [
     "Bukan bekas kecelakaan berat",
     "Bukan bekas banjir",
@@ -535,16 +535,15 @@ export const ABOUT = {
   ],
   note: "Kami buka akses ke harga kulakan yang biasanya cuma dimiliki bakul besar, plus layanan jual profesional kalau kamu butuh bantuan. Uang membership Rp5 juta per unit tidak hilang langsung memotong harga mobil, seperti DP. Semua transparan, aman, dan siap pakai.",
   stats: [
-    { value: "500+", label: "Mobil Terjual" },
+    { value: "1000+", label: "Mobil Terjual" },
     { value: "100%", label: "Kepuasan Member" },
     { value: "200+", label: "Mobil Siap Dijual" },
   ],
   story: [
-    "MobilCuan didirikan oleh tim yang sudah berpengalaman berkecimpung di dunia kulakan mobil bekas.",
-    "Kami tahu betul betapa sulitnya mendapatkan harga kulakan tanpa jaringan, dan betapa berisikonya membeli mobil hanya untuk terjebak karena tidak laku dijual.",
-    "Karena itu, kami hadir bukan untuk mengajari, tapi untuk membuka akses ke harga yang biasanya hanya dimiliki bakul besar, plus layanan jual profesional jika kamu butuh bantuan. Semua transaksi dilakukan secara transparan tidak ada biaya tersembunyi, tidak ada janji kosong.",
-    "Kamu bayar Rp5 juta per unit untuk akses harga kulakan, dan jika ingin jual lewat kami, biayanya jelas: potongan 2,5% + fee Rp1 juta (atau gratis potongan 2,5% jika menitipkan 2+ unit). Kami juga punya showroom fisik dan tim verifikasi mobil yang cek kondisi unit sebelum kamu beli jadi kamu bisa beli dengan tenang.",
-  ],
+    "MobilCuan didirikan oleh tim yang sudah berpengalaman berkecimpung di dunia kulakan mobil bekas. Kami tahu betul betapa sulitnya mendapatkan harga kulakan tanpa jaringan, dan betapa berisikonya membeli mobil hanya untuk terjebak karena tidak laku dijual.",
+  "Karena itu, kami hadir bukan untuk mengajari, tapi untuk membuka akses ke harga yang biasanya hanya dimiliki bakul besar — plus layanan jual profesional jika kamu butuh bantuan. Sudah lebih dari 1.000 unit mobil berhasil ditransaksikan lewat MobilCuan, dan siapa saja bisa merapat: pemakai pribadi, penjual perorangan, makelar, bakul semian, pemodal kecil hingga besar, bahkan supplier dan showroom besar.",
+  "Semua mobil di MobilCuan diverifikasi ketat: bukan bekas banjir, bukan bekas kecelakaan berat, surat-surat lengkap (BPKB, STNK, faktur), dan bergaransi resmi. Kami juga punya showroom fisik dan tim khusus yang cek kondisi mobil sebelum kamu beli — jadi kamu bisa beli dengan tenang.",
+  "Uang membership Rp5 juta per unit tidak hilang, tapi langsung memotong harga mobil seperti DP. Jika kamu jual lewat kami, biayanya transparan: fee 2,5% + admin Rp1 juta dari harga terbentuk — atau gratis fee 2,5% kalau kamu titip jual 2 unit atau lebih. Tidak ada biaya tersembunyi. Tidak ada janji kosong. Hanya akses aman, harga jujur, dan transaksi lancar." ],
 };
 
 export const FAQS = [

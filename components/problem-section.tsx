@@ -42,7 +42,7 @@ export function ProblemSection() {
             {"Cari Mobil, Punya Modal, Pengen diputer Uang nya Jadi Cuan ?"}
           </h2>
           <p className="text-base sm:text-lg md:text-xl text-pretty leading-relaxed max-w-2xl mx-auto font-serif border-background shadow-none text-muted-foreground font-bold tracking-wide">
-            Kamu punya uang 500jt, mau beli harga mobil seharga kulakan? Atau mau coba usaha jualan mobil? tapi bingung:
+             Mau beli harga mobil seharga kulakan? Atau mau coba usaha jualan mobil? tapi bingung:
           </p>
         </div>
 
