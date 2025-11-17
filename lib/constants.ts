@@ -3,7 +3,7 @@ export const SITE_CONFIG = {
   tagline: "BELI MOBIL SEHARGA KULAKAN BAKUL",
   description:
     "Experience the next generation of automotive innovation with cutting-edge technology and unparalleled performance.",
-  whatsapp: "6287761094048",
+  whatsapp: "6281327141879",
 };
 
 export const NAVIGATION = [

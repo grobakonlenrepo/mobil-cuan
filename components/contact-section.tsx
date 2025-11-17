@@ -84,7 +84,7 @@ ${formData.message}
           {/* Google Maps - Full Width */}
           <div className="rounded-lg overflow-hidden border border-border h-80 lg:h-96">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.521260322635!2d106.8227!3d-6.2088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3e945e34b5d%3A0x5b45e34db13dab0!2sMobilCuan!5e0!3m2!1sid!2sid!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.3108665885816!2d109.21974958524169!3d-7.430810654056076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655dd6c00e4167%3A0xc809e77260967303!2sLeandjaya%20Mobilindo!5e0!3m2!1sid!2sid!4v1763362588913!5m2!1sid!2sid"
               width="100%"
               height="100%"
               style={{ border: 0 }}
@@ -200,7 +200,7 @@ ${formData.message}
                     href="mailto:info@mobilcuan.com"
                     className="hover:underline font-serif text-lg tracking-wider text-card-foreground"
                   >
-                    info@mobilcuan.com
+                    mobilcuanpol@gmail.com
                   </a>
                 </div>
               </div>
@@ -218,7 +218,7 @@ ${formData.message}
                     href="tel:+6281234567890"
                     className="hover:underline text-card-foreground font-serif text-lg tracking-wider"
                   >
-                    +62 812 3456 7890
+                    +62 813 2714 1879
                   </a>
                 </div>
               </div>
@@ -233,11 +233,11 @@ ${formData.message}
                     Alamat
                   </h3>
                   <p className="font-serif tracking-wider text-card-foreground text-base">
-                    Jl. Merdeka No. 123
+                    Jl Pahlawan no.28 Pasirmuncang,
                     <br />
-                    Jakarta Selatan, 12345
+                    kec. Purwokerto Barat,
                     <br />
-                    Indonesia
+                    kab. Banyumas
                   </p>
                 </div>
               </div>
@@ -252,9 +252,9 @@ ${formData.message}
                     Jam Operasional
                   </h3>
                   <p className="font-serif tracking-wider text-card-foreground text-base">
-                    Senin - Jumat: 09:00 - 18:00
+                    Senin - Jumat: 09:00 - 16:00
                     <br />
-                    Sabtu: 10:00 - 16:00
+                    Sabtu: Tutup
                     <br />
                     Minggu: Tutup
                   </p>
