@@ -158,7 +158,7 @@ export function MemberPreviewModal({
           )}
 
           <Link href={`https://wa.me/${SITE_CONFIG.whatsapp}`}>
-            <Button className="w-full bg-primary text-lg cursor-pointer text-primary-foreground hover:bg-primary/90 py-6  font-semibold tracking-wide uppercase">
+            <Button className="w-full bg-primary text-md cursor-pointer text-primary-foreground hover:bg-primary/90 py-6  font-semibold tracking-wide uppercase">
               Join Member untuk Lihat Harga
             </Button>
           </Link>
