@@ -602,6 +602,6 @@ export const FOOTER = {
     ],
   },
   social: [
-    { name: "Instagram", href: "instagram.com/mobilcuan.com" },
+    { name: "Instagram", href: "instagram.com/mobilcuanpol" },
   ],
 };
