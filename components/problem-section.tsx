@@ -1,50 +1,57 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
-import { PROBLEMS } from "@/lib/constants"
-import { ChevronLeft, ChevronRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
+import { useState, useEffect } from "react";
+import { PROBLEMS } from "@/lib/constants";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { MainPoint } from "@/components/main-point";
 
 export function ProblemSection() {
-  const [activeIndex, setActiveIndex] = useState(0)
-  const [visibleCount, setVisibleCount] = useState(3)
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [visibleCount, setVisibleCount] = useState(3);
 
   useEffect(() => {
     const handleResize = () => {
-      setVisibleCount(window.innerWidth < 768 ? 1 : 3)
-    }
+      setVisibleCount(window.innerWidth < 768 ? 1 : 3);
+    };
 
-    handleResize()
-    window.addEventListener("resize", handleResize)
-    return () => window.removeEventListener("resize", handleResize)
-  }, [])
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const visibleProblems = Array.from({ length: visibleCount }).map(
-    (_, i) => PROBLEMS[(activeIndex + i) % PROBLEMS.length],
-  )
+    (_, i) => PROBLEMS[(activeIndex + i) % PROBLEMS.length]
+  );
 
   const nextSlide = () => {
-    setActiveIndex((prev) => (prev + visibleCount) % PROBLEMS.length)
-  }
+    setActiveIndex((prev) => (prev + visibleCount) % PROBLEMS.length);
+  };
 
   const prevSlide = () => {
-    setActiveIndex((prev) => (prev - visibleCount + PROBLEMS.length) % PROBLEMS.length)
-  }
+    setActiveIndex(
+      (prev) => (prev - visibleCount + PROBLEMS.length) % PROBLEMS.length
+    );
+  };
 
   return (
     <section id="problem" className="py-16 sm:py-20 lg:py-32 bg-background">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="max-w-4xl mx-auto text-center mb-12 sm:mb-16">
+        <div className="max-w-4xl mx-auto text-center">
           <h2
             className="md:text-4xl font-bold mb-4 uppercase text-balance text-sidebar-primary mt-9 tracking-wide text-2xl"
             style={{ letterSpacing: "0.025em" }}
           >
             {"Cari Mobil, Punya Modal, Pengen diputer Uang nya Jadi Cuan ?"}
           </h2>
-          <p className="text-base sm:text-lg md:text-xl text-pretty leading-relaxed max-w-2xl mx-auto font-serif border-background shadow-none text-muted-foreground font-bold tracking-wide">
-             Mau beli harga mobil seharga kulakan? Atau mau coba usaha jualan mobil? tapi bingung:
-          </p>
         </div>
+
+        <MainPoint />
+
+        <p className="text-base sm:text-lg md:text-xl text-pretty leading-relaxed max-w-2xl mx-auto font-serif border-background shadow-none text-muted-foreground font-bold tracking-wide py-6">
+          Mau beli harga mobil seharga kulakan? Atau mau coba usaha jualan
+          mobil? tapi bingung:
+        </p>
 
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
@@ -79,7 +86,9 @@ export function ProblemSection() {
             </Button>
 
             <div className="flex justify-center gap-2">
-              {Array.from({ length: Math.ceil(PROBLEMS.length / visibleCount) }).map((_, index) => (
+              {Array.from({
+                length: Math.ceil(PROBLEMS.length / visibleCount),
+              }).map((_, index) => (
                 <button
                   key={index}
                   onClick={() => setActiveIndex(index * visibleCount)}
@@ -97,7 +106,7 @@ export function ProblemSection() {
               onClick={nextSlide}
               variant="outline"
               size="icon-xl"
-              className="bg-transparent text-slate-50 rounded-md size-12 cursor-pointer" 
+              className="bg-transparent text-slate-50 rounded-md size-12 cursor-pointer"
               aria-label="Next problem"
             >
               <ChevronRight className="text-foreground h-9 w-9" />
@@ -106,5 +115,5 @@ export function ProblemSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

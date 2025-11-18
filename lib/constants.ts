@@ -26,6 +26,33 @@ export const HERO = {
   },
 };
 
+export const MAIN_POINT = [
+  {
+    title: "Bebas Penyusutan Harga",
+    description:
+      "Nikmati mobil tanpa pusing turun harga, cukup pakai, nilai tetap aman.",
+    img: "/images/mainpoint-1.jpg",
+  },
+  {
+    title: "Bebas Pajak Tahunan",
+    description:
+      "Enggak perlu keluar biaya pajak tiap tahun. Kamu tinggal jalan, kami yang urus.",
+    img: "/images/mainpoint-2.jpg",
+  },
+  {
+    title: "Bebas Perawatan",
+    description:
+      "Servis rutin sampai perbaikan? semua kami tanggung. Kamu fokus pakai mobilnya.",
+    img: "/images/mainpoint-3.jpg",
+  },
+  {
+    title: "Bebas Penyimpanan",
+    description:
+      "Tak punya garasi? tenang. Mobil aman tersimpan di showroom kami kapan pun dibutuhkan.",
+    img: "/images/mainpoint-4.jpg",
+  },
+];
+
 export const PROBLEMS = [
   {
     icon: "⚡",
@@ -149,9 +176,7 @@ export const SOLD_OUT_PRODUCTS = [
       catatan:
         "MOBIL TERAWAT // INTERIOR BERSIH // MESIN SEHAT // SIAP PAKAI // PAJAK HIDUP // KILOMETER RENDAH",
     },
-    gallery: [
-      
-    ],
+    gallery: [],
   },
   {
     id: "honda-freed-2009",
@@ -185,8 +210,7 @@ export const SOLD_OUT_PRODUCTS = [
       catatan:
         "MOBIL TERAWAT // INTERIOR BERSIH // MESIN SEHAT // SIAP PAKAI // PAJAK HIDUP",
     },
-    gallery: [
-      ],
+    gallery: [],
   },
   {
     id: "honda-mobilio-2014",
@@ -223,8 +247,7 @@ export const SOLD_OUT_PRODUCTS = [
       catatan:
         "MOBIL TERAWAT // INTERIOR PREMIUM BERSIH // MESIN SEHAT // SIAP PAKAI // PAJAK HIDUP // KILOMETER NORMAL",
     },
-    gallery: [
-       ],
+    gallery: [],
   },
   {
     id: "nissan-teana-2013",
@@ -261,8 +284,7 @@ export const SOLD_OUT_PRODUCTS = [
       catatan:
         "MOBIL TERAWAT // INTERIOR PREMIUM KULIT BERSIH // MESIN SEHAT // SIAP PAKAI // PAJAK HIDUP // KILOMETER NORMAL",
     },
-    gallery: [
-      ],
+    gallery: [],
   },
 ];
 
@@ -280,8 +302,7 @@ export const AVAILABLE_PRODUCTS = [
       tranmisi: "Automatic",
     },
     price: "Untung 55jt !!",
-    image:
-      "/images/xpander-1.jpeg",
+    image: "/images/xpander-1.jpeg",
     detailedSpecs: {
       spesifikasi: {
         merk: "MITSUBISHI",
@@ -309,11 +330,10 @@ export const AVAILABLE_PRODUCTS = [
       "/images/xpander-1.jpeg",
       "/images/xpander-2.jpeg",
       "/images/xpander-3.jpeg",
-      
+
       "/images/xpander-5.jpeg",
       "/images/xpander-6.jpeg",
-
-        ],
+    ],
   },
   {
     id: "toyota-avanza-2023",
@@ -328,8 +348,7 @@ export const AVAILABLE_PRODUCTS = [
       tranmisi: "CVT Automatic",
     },
     price: "Untung 40jt !!",
-    image:
-      "/images/avanza-1.jpg",
+    image: "/images/avanza-1.jpg",
     detailedSpecs: {
       spesifikasi: {
         merk: "TOYOTA",
@@ -358,9 +377,8 @@ export const AVAILABLE_PRODUCTS = [
       "/images/avanza-2.jpg",
       "/images/avanza-3.jpg",
       "/images/avanza-4.jpg",
-      
+
       "/images/avanza-6.jpg",
-      
     ],
   },
   {
@@ -403,12 +421,12 @@ export const AVAILABLE_PRODUCTS = [
     },
     gallery: [
       "/images/livina-1.jpeg",
-      
+
       "/images/livina-3.jpeg",
       "/images/livina-4.jpeg",
       "/images/livina-5.jpeg",
       "/images/livina-6.jpeg",
-       ],
+    ],
   },
 ];
 
@@ -425,8 +443,7 @@ export const TESTIMONIALS = [
   {
     name: "Rudi Hartono",
     role: "Pembeli Honda Brio Satya 2015",
-    avatar:
-      "/images/testi-1.jpeg",
+    avatar: "/images/testi-1.jpeg",
     content:
       "Gue modal Rp5 juta buat jadi member, terus beli Brio Satya harga kulakan. Dijual lagi lewat MobilCuan, cuma 3 minggu laku — untung bersih Rp28 juta! Nggak perlu pusing cari pembeli, tim MobilCuan yang handle semuanya.",
     rating: 5,
@@ -434,8 +451,7 @@ export const TESTIMONIALS = [
   {
     name: "Budi Santoso",
     role: "Pembeli Daihatsu Ayla 2014",
-    avatar:
-      "/images/testi-2.jpeg",
+    avatar: "/images/testi-2.jpeg",
     content:
       "Awalnya cuma mau beli mobil buat dipakai sendiri, tapi pengin harga murah. Pas join MobilCuan, langsung dapet Ayla 2014 harga Rp95 juta — padahal di luar Rp140 juta! Mobilnya bagus, prosesnya gampang, dan nggak ribet sama sekali.",
     rating: 5,
@@ -443,8 +459,7 @@ export const TESTIMONIALS = [
   {
     name: "Ahmad Wijaya",
     role: "Pembeli Honda Jazz RS 2019",
-    avatar:
-      "/images/testi-3.jpeg",
+    avatar: "/images/testi-3.jpeg",
     content:
       "Awalnya ragu beli mobil buat dijual lagi — takut nggak laku, takut salah pilih unit. Tapi pas pakai MobilCuan, semua jadi lebih tenang. Harganya transparan, mobilnya berkualitas, dan kalau mau jual, tim MobilCuan langsung bantu jualin. Nggak perlu mikir ribet!",
     rating: 5,
@@ -541,9 +556,10 @@ export const ABOUT = {
   ],
   story: [
     "MobilCuan didirikan oleh tim yang sudah berpengalaman berkecimpung di dunia kulakan mobil bekas. Kami tahu betul betapa sulitnya mendapatkan harga kulakan tanpa jaringan, dan betapa berisikonya membeli mobil hanya untuk terjebak karena tidak laku dijual.",
-  "Karena itu, kami hadir bukan untuk mengajari, tapi untuk membuka akses ke harga yang biasanya hanya dimiliki bakul besar — plus layanan jual profesional jika kamu butuh bantuan. Sudah lebih dari 1.000 unit mobil berhasil ditransaksikan lewat MobilCuan, dan siapa saja bisa merapat: pemakai pribadi, penjual perorangan, makelar, bakul semian, pemodal kecil hingga besar, bahkan supplier dan showroom besar.",
-  "Semua mobil di MobilCuan diverifikasi ketat: bukan bekas banjir, bukan bekas kecelakaan berat, surat-surat lengkap (BPKB, STNK, faktur), dan bergaransi resmi. Kami juga punya showroom fisik dan tim khusus yang cek kondisi mobil sebelum kamu beli — jadi kamu bisa beli dengan tenang.",
-  "Uang membership Rp5 juta per unit tidak hilang, tapi langsung memotong harga mobil seperti DP. Jika kamu jual lewat kami, biayanya transparan: fee 2,5% + admin Rp1 juta dari harga terbentuk — atau gratis fee 2,5% kalau kamu titip jual 2 unit atau lebih. Tidak ada biaya tersembunyi. Tidak ada janji kosong. Hanya akses aman, harga jujur, dan transaksi lancar." ],
+    "Karena itu, kami hadir bukan untuk mengajari, tapi untuk membuka akses ke harga yang biasanya hanya dimiliki bakul besar — plus layanan jual profesional jika kamu butuh bantuan. Sudah lebih dari 1.000 unit mobil berhasil ditransaksikan lewat MobilCuan, dan siapa saja bisa merapat: pemakai pribadi, penjual perorangan, makelar, bakul semian, pemodal kecil hingga besar, bahkan supplier dan showroom besar.",
+    "Semua mobil di MobilCuan diverifikasi ketat: bukan bekas banjir, bukan bekas kecelakaan berat, surat-surat lengkap (BPKB, STNK, faktur), dan bergaransi resmi. Kami juga punya showroom fisik dan tim khusus yang cek kondisi mobil sebelum kamu beli — jadi kamu bisa beli dengan tenang.",
+    "Uang membership Rp5 juta per unit tidak hilang, tapi langsung memotong harga mobil seperti DP. Jika kamu jual lewat kami, biayanya transparan: fee 2,5% + admin Rp1 juta dari harga terbentuk — atau gratis fee 2,5% kalau kamu titip jual 2 unit atau lebih. Tidak ada biaya tersembunyi. Tidak ada janji kosong. Hanya akses aman, harga jujur, dan transaksi lancar.",
+  ],
 };
 
 export const FAQS = [
@@ -598,7 +614,7 @@ export const FOOTER = {
     title: "Support",
     links: [
       { name: "FAQ", href: "#faq" },
-      { name: "Contact", href: "#" },
+      { name: "Contact", href: "#contact" },
     ],
   },
   social: [
